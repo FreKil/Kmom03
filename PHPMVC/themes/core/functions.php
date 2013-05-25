@@ -2,7 +2,7 @@
 /**
 * Helpers for the template file.
 */
-$drygia->data['header'] = '<h1>Header: Drygia</h1>';
+$drygia->data['header'] = CreateMenu();
 $drygia->data['main'] = (isset($drygia->data['main'])) ? $drygia->data['main'] : "";
 $drygia->data['footer'] = '<p>Footer: &copy; Drygia by Freddy</p>';
 
@@ -27,4 +27,17 @@ function get_debug() {
 		$html .= "<p>The content of \$_SESSION:</p><pre>" . htmlent(print_r($_SESSION, true)) . "</pre>";
 	} 	
 	return $html;
+}
+
+//---------------------------------------------------------------
+//Returning navigation links to header.
+function CreateMenu(){
+	$hem = $drygia->CreateUrl('index');
+	$guestbook = $drygia->CreateUrl('guestbook')
+	
+	$html = <<<input
+<h1>Header: Drygia</h1>
+<a href="{$hem}">Hem</a>
+<a href="{$guestbook}">Gästbok</a>
+input;
 }

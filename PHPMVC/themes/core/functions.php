@@ -32,6 +32,7 @@ function get_debug() {
 //---------------------------------------------------------------
 //Returning navigation links to header.
 function CreateMenu(){
+	$drygia = CDrygia::Instance(); 
 	$hem = $drygia->CreateUrl('index');
 	$guestbook = $drygia->CreateUrl('guestbook');
 	

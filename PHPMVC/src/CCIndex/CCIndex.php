@@ -11,7 +11,7 @@ class CCIndex implements IController {
     */
 	public function Index() {   
 		global $drygia;
-		$drygia->data['title'] = "The Index Controller";	 
+		$drygia->data['title'] = "The Index Controller";
 	}
 
 }

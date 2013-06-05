@@ -22,6 +22,28 @@ $html = <<<input
 	<h1>Redovisning av kursmomenten</h1>
 	
 	<article>
+		<h2>Kmom03: En gästbok i ditt MVC-ramverk </h2>
+		<p>
+			<b>Vilken uppfattning fick du om CodeIgniter? </b><br />
+			Verkar vara ett bra ramverk med en tydlig struktur och har både välkommenterad kod samt en bra dokumentation där man kan läsa om hur ramverket är tänkt att användas samt vilka funktioner som finns inbyggda för att underlätta byggandet av egna applikationer.
+		</p>
+		<p>
+			<b>Gjorde du extrauppgiften och byggde din egna gästbok i CodeIgniter, hur kändes det? </b><br />
+			Vart lite lättare att hänga med än under gästboksbygget i Lydia(Drygia) eftersom vi mest fokuserade på att bygga själva gästboken i CodeIgniter medan vi byggde både på gästboken och ramverket i Lydia guiden, vilket var lite rörigt. Utöver det så fungerade dom båda gästböckerna nästan likadant så där var det inte så mycket skillnad annat än att vi använde oss av lite andra funktioner och sånt.</p>
+		<p>
+			<b>Har du grepp om MVC-strukturen? Vad tycker du så här långt? </b><br />
+			Tycker mig förstå bra hur den fungerar är ju en litet annat sätt att strukturera upp sin applikation på än vad jag är van vid. Men jag ser en hel del fördelar med en tydligare indelning av applikationens kod, samt att klasserna till själva ramverket gör att det blir mindre kod att skriva när man skapar själva applikationerna vilket underlättar en del. Nackdelen är ju att man måste sätta sig in i varje nytt ramverk man ska använda sig av och det är ju en hel del saker som finns i dom som man måste lära sig.</p>
+		<p>
+			<b>Gjorde du extra-uppgiften om Lydias vy-hantering, några reflektioner? </b><br />
+			Ser ut som ett bra sätt att gruppera dom olika delar av applikationerna för att göra det lätt att hitta det man söker.
+		</p>
+		<p>
+			<b>Tittade du på extra-uppgiften om spam, några reflektioner? </b><br />
+			Var ett rätt intressant sätt att skydda sig mot spam och verkar ha varit rätt effektivt också. Vanligtvis brukar man ju se diverse captcha på sidorna för att skydda sig mot spam men det här var ju betydligt vänligare mot användarna, dock faller det för botar som är lite smartare kodade.
+		</p>
+	</article>
+	
+	<article>
 		<h2>Kmom02: Grunden till ett MVC-ramverk </h2>
 		<p>
 			Döpte mitt MVC-ramverk till Drygia. Har väl inte direkt någon anledning till namnvalet utan tog det föra jag kom att tänka på mer elller mindre.
